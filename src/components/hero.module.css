@@ -1,0 +1,10 @@
+.hero {
+  /* border: 1px solid green; */
+}
+
+.inner {
+  border: 1px solid red;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}

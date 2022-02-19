@@ -11,13 +11,13 @@
   width: 100%;
   padding: var(--size-gap) var(--size-gutter);
   grid-template-columns: var(--size-input) 1fr min-content min-content;
-  grid-template-areas: "logo nada searchButton cartButton" "navHeader navHeader navHeader navHeader";
+  grid-template-areas: "a a a a";
   align-items: center;
   background-color: var(--background);
 }
 
 .header::after {
-  grid-area: navHeader;
+  grid-area: nav;
   content: "";
   display: block;
   width: var(--space-2xl);

@@ -1,5 +1,6 @@
 import * as React from "react"
 import { navLink } from "./skip-nav.module.css"
+import { container } from "../styles/global.css"
 
 const defaultId = `skip-to-content`
 
